@@ -1,0 +1,3 @@
+:root { --radius: 16px; }
+body { background:#f8fafc; }
+.card,.navbar,footer { border-radius: var(--radius); }
