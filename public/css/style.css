@@ -1,3 +1,5 @@
-:root { --radius: 16px; }
-body { background:#f8fafc; }
-.card,.navbar,footer { border-radius: var(--radius); }
+/* Small touches to make it look polished */
+body { scroll-behavior: smooth; }
+.navbar-brand { letter-spacing: .3px; }
+.card-title { font-weight: 600; }
+footer a:hover { opacity: .85; }
