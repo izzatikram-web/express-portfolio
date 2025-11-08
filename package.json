@@ -1,23 +1,13 @@
 {
   "name": "express-portfolio",
-  "version": "0.0.0",
-  "private": true,
-  "description": "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine",
-  "keywords": [
-    "Get-ExecutionPolicy",
-    "-List"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "Get-ExecutionPolicy -List"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "Express + EJS portfolio for INFR3120 (Networking & IT Security student portfolio).",
   "main": "app.js",
   "scripts": {
-    "start": "node ./bin/www && start http://localhost:3000"
+    "start": "node ./bin/www"
   },
+  "author": "Izzat Ikram",
+  "license": "ISC",
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -25,7 +15,9 @@
     "express": "^4.21.2",
     "express-ejs-layouts": "^2.5.1",
     "http-errors": "~1.6.3",
-    "jade": "^1.9.2",
     "morgan": "^1.10.1"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
